@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory app:title="@string/preferanser">
+        <SwitchPreference
+            android:key="SMS"
+            android:title="SMS og notifikasjoner"
+            android:summary="Slå på SMS og notifikasjoner"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:key="Default"
+            android:title="Default SMS"
+            android:summary="Skriv en egendefinert SMS som vil bli sendt"
+            android:defaultValue="Husk at vi har en avtale"
+            android:inputType="text" />
+        <Preference
+            android:title="Velg tid"
+            android:key="velgTid"
+            android:summary="Velg når på dagen SMS og notifikasjon skal bli sendt"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

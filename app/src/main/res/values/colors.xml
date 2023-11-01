@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="active">#FFFFFFFF</color>
+    <color name="inactive">#808080</color>
+    <color name="nav_bar_color">#343434</color>
+    <color name="vermillion">#FF5733</color>
+    <color name="cornflower_blue">#6495ED</color>
+    <color name="black">#000000</color>
+</resources>

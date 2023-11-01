@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/inputAvtaleNavn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/avtalenavn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/inputAvtaleDato"
+        android:layout_width="228dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/btn_shape_opprett_avtale"
+        android:text="@string/velg_dato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputAvtaleNavn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/inputAvtaleKlokkeslett"
+        android:layout_width="228dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/btn_shape_opprett_avtale"
+        android:text="@string/velg_klokkeslett"
+        app:layout_constraintEnd_toEndOf="@+id/inputAvtaleDato"
+        app:layout_constraintTop_toBottomOf="@+id/inputAvtaleDato" />
+
+    <EditText
+        android:id="@+id/inputAvtaleTreffsted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/treffsted"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputAvtaleKlokkeslett" />
+
+    <EditText
+        android:id="@+id/inputAvtaleVennTlf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/venns_tlf"
+        app:layout_constraintStart_toStartOf="@+id/inputAvtaleTreffsted"
+        app:layout_constraintTop_toBottomOf="@+id/inputAvtaleTreffsted" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/opprettAvtale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="57dp"
+        android:text="@string/opprett"
+        android:background="@drawable/btn_shape_avtaler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

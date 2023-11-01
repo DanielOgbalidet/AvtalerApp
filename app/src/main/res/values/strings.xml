@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MineAvtaler</string>
+    <string name="avtaler">Avtaler</string>
+    <string name="venner">Venner</string>
+    <string name="preferanser">Preferanser</string>
+    <string name="opprett">Opprett</string>
+    <string name="slett">Slett</string>
+    <string name="channel_name">Min Kanal</string>
+    <string name="channel_description">Min Beskrivelse</string>
+    <string name="avtalenavn">Avtalenavn</string>
+    <string name="velg_dato">Velg Dato</string>
+    <string name="velg_klokkeslett">Velg Klokkeslett</string>
+    <string name="treffsted">Treffsted</string>
+    <string name="venns_tlf">Venns telefonnummer</string>
+    <string name="navn">Navn</string>
+    <string name="tlf">Tlf</string>
+</resources>
